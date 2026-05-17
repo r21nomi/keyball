@@ -33,11 +33,17 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 //#    define RGBLIGHT_EFFECT_TWINKLE
 #endif
 
-#define TAP_CODE_DELAY 5
-#define PREVENT_STUCK_MODIFIERS
+// Tap/Hold settings
 #define TAPPING_TERM 140
+#define QUICK_TAP_TERM 0
 #define HOLD_ON_OTHER_KEY_PRESS
+#define PREVENT_STUCK_MODIFIERS
+#define TAP_CODE_DELAY 5
+
+// Pointing device (trackball)
 #define POINTING_DEVICE_AUTO_MOUSE_ENABLE
 #define AUTO_MOUSE_DEFAULT_LAYER 1
-#define DYNAMIC_KEYMAP_LAYER_COUNT 5
 #define KEYBALL_SCROLL_DIV_DEFAULT 5
+
+// Dynamic keymap
+#define DYNAMIC_KEYMAP_LAYER_COUNT 5
